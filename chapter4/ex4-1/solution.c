@@ -21,7 +21,7 @@ ssize_t  strindex(const char s[], const char t[])
 
   //if t is empty, match at end of s
   if(len_t == 0)
-    return len_s-1;
+    return 0;
 
   for(ssize_t i = len_s - len_t; i >= 0; --i)
   {
