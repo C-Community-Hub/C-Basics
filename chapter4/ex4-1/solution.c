@@ -19,7 +19,7 @@ ssize_t  strindex(const char s[], const char t[])
   len_t = strlen(t);
   len_s = strlen(s);
 
-  //if t is empty, match at end of s
+  //if t is empty, match at beginning of s
   if(len_t == 0)
     return 0;
 
